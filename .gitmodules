@@ -1,0 +1,3 @@
+[submodule "3-label-images"]
+	path = 3-label-images
+	url = https://github.com/winnerineast/labelme.git

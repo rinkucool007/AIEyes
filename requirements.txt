@@ -1,0 +1,6 @@
+numpy==1.13.3
+youtube-dl==2017.12.14
+PyQt5==5.9.2
+labelme==2.6.4
+face-recognition-models==0.3.0
+face_recognition==1.0.0
