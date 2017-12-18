@@ -1,3 +1,4 @@
+![Origae-6](doc/origae-6.png)
 # AI Eyes
 This is a project to understand video contents from more than one 4K (at least 4K) cameras. The default live environment is based on ubuntu 16.04(x86_64) and all source codes are developed on macos 10.13.2(x86_64).
 
@@ -11,6 +12,7 @@ This is a project to understand video contents from more than one 4K (at least 4
 - [x] able to identify video contents.
 - [ ] able to classify video contents.
 - [ ] able to segment video contents.
+- [ ] able to trace the people's pose.
 - [ ] able to verify the result.
 - [ ] more functionalities.
 
@@ -86,4 +88,9 @@ pip install labelme
 ```bash
 pip install face_recognition
 pip install face-recognition-models
+```
+8. install nvcaffe based on [installation guide](doc/BuildCaffe.md). 
+## How to run
+```bash
+python3 -m digits
 ```

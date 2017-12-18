@@ -16,3 +16,12 @@
 [submodule "9-dlib"]
 	path = 9-dlib
 	url = https://github.com/davisking/dlib.git
+[submodule "10-openpose"]
+	path = 10-openpose
+	url = https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
+[submodule "11-digits"]
+	path = 11-digits
+	url = https://github.com/NVIDIA/DIGITS.git
+[submodule "11-nvcaffe"]
+	path = 11-nvcaffe
+	url = https://github.com/NVIDIA/caffe.git

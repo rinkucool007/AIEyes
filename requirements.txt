@@ -4,3 +4,4 @@ PyQt5==5.9.2
 labelme==2.6.4
 face-recognition-models==0.3.0
 face_recognition==1.0.0
+tensorflow==1.4.1
