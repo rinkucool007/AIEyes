@@ -82,3 +82,8 @@ brew install qt || brew install pyqt  # qt4 is deprecated
 pip install PyQt5
 pip install labelme
 ```
+7. install face_recognition and models. Before that, install dlib please.
+```bash
+pip install face_recognition
+pip install face-recognition-models
+```

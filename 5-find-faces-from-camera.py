@@ -14,8 +14,8 @@ import cv2
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-obama_image = face_recognition.load_image_file("4-find-faces-sunli.jpg")
-obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+wqh_image = face_recognition.load_image_file("4-find-faces.jpg")
+wqh_face_encoding = face_recognition.face_encodings(wqh_image)[0]
 
 # Initialize some variables
 face_locations = []
@@ -39,11 +39,11 @@ while True:
         face_names = []
         for face_encoding in face_encodings:
             # See if the face is a match for the known face(s)
-            match = face_recognition.compare_faces([obama_face_encoding], face_encoding)
+            match = face_recognition.compare_faces([wqh_face_encoding], face_encoding)
             name = "Unknown"
 
             if match[0]:
-                name = "Barack"
+                name = "sunli"
 
             face_names.append(name)
 
