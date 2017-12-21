@@ -16,6 +16,23 @@ This is a project to understand video contents from more than one 4K (at least 4
 - [ ] able to verify the result.
 - [ ] more functionalities.
 
+## Source Codes Structure
+- 1-detect-local-camera.py: this is to demonstrate how to invoke a local video camera.
+- 2-download-internet-video.py: this is to demonstrate how to leverage youtube-dl to download online video streams into local files.
+- 3-label-images: this is an open source tools to label image and generate label json file. After pip install labelme, type labelme to try it.
+- 4-find-faces.py: this is to demonstrate how to use dlib to detect faces, identify object. All test images are local.
+- 5-find-faces-from-camera.py: this is to demonstrate how to use dlib to detect and identify object in video in a real-time manner.
+- 6-find-faces-from-videofiles.py: the same demonstration as 5-find-faces-from camera.py but the input source is from video files in order to have rich testing data.
+- 7-opencv and 7-opencv_contrib: basic framework opencv.
+- 8-youtube-dl: basic framework youtube and other video downloader.
+- 9-dlib: basic framework of object detection and identification.
+- 10-openpose: basic framework of people movement tracking.
+- 11-nvcaffe and 11-digits: NVIDIA video training platform with caffe/tensorflow/pytorch.
+- 12-darknet: light-wieght c framework for real-time object identification without any other framework. Even though it works fine with opencv or openmp or cudnn or cuda.
+- 13-ffmpeg: 
+- aieyes: the main system project. all kinds of integration can be found here.
+- doc: some documents and images and pdf files to support AIEyes.
+
 ## Installations
 I just recorded what I have done with my Macbook Pro as a reference and you need to take care of your case.
 1. reinstall MacOS 10.13.2 in order to have a clean OS. (if you would like follow this installation steps, this is a must-do.)

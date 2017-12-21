@@ -25,3 +25,9 @@
 [submodule "11-nvcaffe"]
 	path = 11-nvcaffe
 	url = https://github.com/NVIDIA/caffe.git
+[submodule "12-darknet"]
+	path = 12-darknet
+	url = https://github.com/pjreddie/darknet.git
+[submodule "13-ffmpeg"]
+	path = 13-ffmpeg
+	url = https://github.com/FFmpeg/FFmpeg.git
